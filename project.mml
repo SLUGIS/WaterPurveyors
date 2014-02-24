@@ -1,0 +1,65 @@
+{
+  "bounds": [
+    -121.3495,
+    34.8521,
+    -119.2429,
+    35.8044
+  ],
+  "center": [
+    -120.3772,
+    35.3062,
+    9
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "waterps",
+    "template_teaser": "Name: {{{PWS_Name}}}<br/>\nPop served: {{{Pop_Served}}}<br/>\nConnection: {{{Connection}}}<br/>\nID: {{{PWSID}}}<br/>\nType: {{{PWS_Type}}}<br/>\nSource: {{{Source}}}<br/>\nOwner: {{{Owner}}}<br/>\nSize: {{{Size}}}<br/>",
+    "fields": [
+      "PWS_Name",
+      "Pop_Served",
+      "Connection",
+      "PWSID",
+      "PWS_Type",
+      "Source",
+      "Owner",
+      "Size"
+    ]
+  },
+  "minzoom": 9,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -121.2948082158278,
+        34.83819311358004,
+        -119.26313797325072,
+        35.82165701513752
+      ],
+      "id": "waterps",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\_data\\Hydrology\\ENV_WATER_PURVEYORS.shp",
+        "id": "waterps",
+        "project": "WaterPurveyors",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "waterps"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Water Purveyors in SLU",
+  "description": "",
+  "attribution": "San Luis Obispo County LAFCO and Environmental Health",
+  "version": "0.1.0",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Water Purveyors in SLU</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#132a7c;'></span>Very small</li>\n    <li><span style='background:#52a6c0;'></span>Small</li>\n    <li><span style='background:#167f16;'></span>Medium</li>\n    <li><span style='background:#c5d74a;'></span>Large</li>\n  </ul>\n</div>\n<div class='legend-source'>Source: San Luis Obispo County LAFCO and Environmental Health</div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 5px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 16px;\n    width: 30px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 1px solid #999;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
