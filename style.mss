@@ -1,36 +1,29 @@
-#waterps [Size='Very_Small']{
+#waterps [Level_='watch']{
   line-color:#435f99;
   line-width:0.5;
   polygon-opacity:0.6;
-  polygon-fill:#132a7c;
+  polygon-fill:#436f15;
 }
 
-#waterps [Size='Very-Small']{
+#waterps [Level_='vulnerable']{
   line-color:#435f99;
   line-width:0.5;
   polygon-opacity:0.6;
-  polygon-fill:#132a7c;
+  polygon-fill:#ddbe20;
 }
 
-#waterps [Size='Small']{
+#waterps [Level_='critical']{
   line-color:#435f99;
   line-width:0.5;
   polygon-opacity:0.6;
-  polygon-fill:#52a6c0;
+  polygon-fill:#ff0000;
 }
 
-#waterps [Size='Medium']{
+#waterps [Level_='pending']{
   line-color:#435f99;
   line-width:0.5;
-  polygon-opacity:0.6;
-  polygon-fill:#167f16;
-}
-
-#waterps [Size='Large']{
-  line-color:#435f99;
-  line-width:0.5;
-  polygon-opacity:0.6;
-  polygon-fill:#c5d74a;
+  polygon-opacity:0.4;
+  polygon-fill:#788678;
 }
 
 #waterps [zoom > 12]{
